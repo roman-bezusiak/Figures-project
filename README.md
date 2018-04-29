@@ -1,1 +1,1 @@
-# Figures-project
+# Figures
