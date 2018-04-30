@@ -93,11 +93,13 @@ _output.h_ file:
 	- **_Other_ files** ( **_1_** ):
 		- makefile
 
-- Other ( **_2_** ):
+- Other ( **_4_** ):
 	- README.md
 	- LICENCE
+	- TUI_active_state.png
+	- TUI_initial_state.png
 
-#### Total: **_7_** files
+#### Total: **_9_** files
 
 ## Copyright and licensing information
 
