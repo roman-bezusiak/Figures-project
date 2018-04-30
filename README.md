@@ -34,6 +34,11 @@
 2. [PuTTY](https://en.wikipedia.org/wiki/PuTTY) ( 
 	[MOC](https://github.com/roman-bezusiak/Sound-proj.#required-hardware) )
 
+### Optional software changes
+
+All the customization can be done in the _output.h_ file. THe file's description is 
+	self-explanatory.
+
 ## Operating instructions
 
 1. Launch the [RPi](https://en.wikipedia.org/wiki/Raspberry_Pi)
@@ -53,6 +58,24 @@
 ```
 ~$ ./figures.a
 ```
+
+5. Enter the number of the figure to be drawn
+
+![Initial state](TUI_initial_state.png)
+
+6. The program will be showing the figure during some period of time and then it will 
+	go back to the initial state, asking for further instructions. The period of time depends on the **RES_DELAY** constant value ( seconds ) in the _output.h_ file.
+
+![Active state](TUI_active_state.png)
+
+7. To quit the program, enter anything except numbers defined by constants in the 
+_output.h_ file:
+	- **RECTANGLE** ( default: 1 )
+	- **SQUARE**    ( default: 2 )
+	- **TRIANGLE**  ( default: 3 )
+	- **CIRCLE**    ( default: 4 )
+	- **HLINE**     ( default: 5 )
+	- **XLINES**    ( default: 6 )
 
 ## File manifest
 
