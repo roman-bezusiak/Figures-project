@@ -36,8 +36,9 @@
 
 ### Optional software changes
 
-All the customization can be done in the _output.h_ file. THe file's description is 
-	self-explanatory.
+All the customization of the drawing area ( FIG_AREA ) can be done in the _output.h_ 
+	file. THe file's description is self-explanatory. Customization of other fields 
+	can be done in the _display.c_ file.
 
 ## Operating instructions
 
@@ -64,7 +65,8 @@ All the customization can be done in the _output.h_ file. THe file's description
 ![Initial state](TUI_initial_state.png)
 
 6. The program will be showing the figure during some period of time and then it will 
-	go back to the initial state, asking for further instructions. The period of time depends on the **RES_DELAY** constant value ( seconds ) in the _output.h_ file.
+	go back to the initial state, asking for further instructions. The period of time depends on the **RES_DELAY** constant value ( default: 3 seconds ) in the 
+	_output.h_ file.
 
 ![Active state](TUI_active_state.png)
 
