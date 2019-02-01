@@ -111,7 +111,7 @@ See the [_LICENSE_](LICENSE) file for details
 
 ### Authors:
 - **Roman Bezusiak** - _Initial work_ - 
-	[Roman Bezusiak ( GitHub profile )](https://github.com/roman-bezusiak)
+	[github.com](https://github.com/roman-bezusiak)
 
 ### Used resources:
 - **[Wikimedia Foundation Inc.](https://wikimediafoundation.org/wiki/Home), 
