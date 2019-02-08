@@ -22,12 +22,12 @@ enum COLOURS
 // Constant definitions
 #define ESC 0x1B // Escape sequence
 
-#define LIST_AREA_WIDTH 37 // Horizontal border of the menu area ( amount of symbols )
-#define FIG_AREA_WIDTH  25 // Horizontal border of the drawing area ( amount of symbols, should
-						   // be equal to FIG_AREA_HEIGHT * 2 + 1 )
+#define LIST_AREA_WIDTH 37 // Horizontal border of the menu area (amount of symbols)
+#define FIG_AREA_WIDTH  25 // Horizontal border of the drawing area (amount of symbols, should
+						   // be equal to FIG_AREA_HEIGHT * 2 + 1)
 #define FIG_AREA_HEIGHT 12 // FIG_AREA_HEIGHT of the "list" and the "fig" area
 
-#define RES_DELAY 3 // Defines how much time the result will be shown ( seconds )
+#define RES_DELAY 3 // Defines how much time the result will be shown (seconds)
 
 #define RECTANGLE '1' // Rectangle's ID
 #define SQUARE    '2' // Square's ID
@@ -53,21 +53,20 @@ enum COLOURS
 #define INTRO_AREA_COLOUR  MAGENTA // Text colour of the intro area
 #define LIST_AREA_COLOUR   GREEN   // Text colour of the list area
 #define FIGURE_AREA_COLOUR CYAN    // Text colour of the figure drawing area
-#define BOTTOM_AREA_COLOUR YELLOW  // Text colour of the bottom area ( request / timer )
+#define BOTTOM_AREA_COLOUR YELLOW  // Text colour of the bottom area (request / timer)
 
 #define REQUEST_INPUT_AREA_COLOUR WHITE // Text colour of the request input data
 #define TIMER_OUTPUT_AREA_COLOUR  WHITE // Text colour of the timer output data
 						   						   
 // Function prototypes
-void draw ( const unsigned short, char [ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ], int time_left );
+void draw (const unsigned short, char [FIG_AREA_HEIGHT][FIG_AREA_WIDTH], int time_left);
 
-void makeRectangle ( char [ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] );
-void makeSquare	   ( char [ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] ); 
-void makeTriangle  ( char [ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] ); 
-void makeCircle	   ( char [ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] ); 
-void makeHLine	   ( char [ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] ); 
-void makeXLines	   ( char [ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] ); 
+void makeRectangle (char [FIG_AREA_HEIGHT][FIG_AREA_WIDTH]);
+void makeSquare	   (char [FIG_AREA_HEIGHT][FIG_AREA_WIDTH]); 
+void makeTriangle  (char [FIG_AREA_HEIGHT][FIG_AREA_WIDTH]); 
+void makeCircle	   (char [FIG_AREA_HEIGHT][FIG_AREA_WIDTH]); 
+void makeHLine	   (char [FIG_AREA_HEIGHT][FIG_AREA_WIDTH]); 
+void makeXLines	   (char [FIG_AREA_HEIGHT][FIG_AREA_WIDTH]); 
 
-void setColour ( unsigned short );
-void _clear    ( void );
-						   						   
+void setColour (unsigned short);
+void _clear    (void);
