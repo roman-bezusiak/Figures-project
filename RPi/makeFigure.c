@@ -1,7 +1,7 @@
 #include "output.h"
 
 /*
-	The drawing area ( two-dimensional char array "fig" ):
+	The drawing area (two-dimensional char array "fig"):
 
 		CTTTTTTTTTTTTTTTTTTTTTTC\0
 		LDDDDDDDDDDDDDDDDDDDDDDR\0
@@ -20,7 +20,7 @@
 		- C is a corner symbol
 		- D is a drawing symbol
 		- T B L R are top, bottom, left, and right border symbols respectively
-		- \0 is the end of the line symbol ( one char )
+		- \0 is the end of the line symbol (one char)
 */
 
 // Function definition of makeHLine()
