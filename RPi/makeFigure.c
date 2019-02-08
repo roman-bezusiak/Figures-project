@@ -106,7 +106,7 @@ void makeSquare ( char fig[ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] )
 		i, j,                         // Loop counters
 		sq_b_height = FIG_AREA_HEIGHT - 1,     // The end of the maximum figure's height
 		sq_b_width  = FIG_AREA_WIDTH - 2, // The end of the maximum figure's width
-		str_end     = FIG_AREA_WIDTH - 1; // The end of the drawing area ( including borders ) 
+		str_end     = FIG_AREA_WIDTH - 1; // The end of the drawing area (including borders) 
 
 	for ( i = 1; i < sq_b_height; ++i )
 	{
@@ -132,19 +132,19 @@ void makeSquare ( char fig[ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] )
 	                                                             // assingments respectively
 
 	// Corner symbol assingments
-	fig[ 0 ][ sq_b_width ] = fig[ sq_b_height ][ 0 ] =
-	fig[ 0 ][ 0 ] = fig[ sq_b_height ][ sq_b_width ] = CORNER_SYMB;
+	fig[ 0 ][ sq_b_width] = fig[sq_b_height][0] =
+	fig[ 0 ][ 0 ] = fig[ sq_b_height][sq_b_width] = CORNER_SYMB;
 }
 
 // Function definition of makeRectangle()
-void makeRectangle ( char fig[ FIG_AREA_HEIGHT ][ FIG_AREA_WIDTH ] )
+void makeRectangle (char fig[FIG_AREA_HEIGHT][FIG_AREA_WIDTH])
 {
 	int
 		i, j, k,                      // Loop counters
 		sq_b_height = FIG_AREA_HEIGHT - 1,     // The end of the maximum figure's height
 		sq_b_width  = FIG_AREA_WIDTH - 2, // The end of the maximum figure's width
 		rec_width   = sq_b_width - 7, // Rectangle's width
-		str_end     = FIG_AREA_WIDTH - 1; // The end of the drawing area ( including borders ) 
+		str_end     = FIG_AREA_WIDTH - 1; // The end of the drawing area (including borders) 
 
 	for ( i = 1; i < sq_b_height; ++i )
 	{
