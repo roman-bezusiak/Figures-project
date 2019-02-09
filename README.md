@@ -32,7 +32,7 @@
 	[RPi](https://en.wikipedia.org/wiki/Raspberry_Pi) )
 
 2. [PuTTY](https://en.wikipedia.org/wiki/PuTTY) ( 
-	[MOC](https://github.com/roman-bezusiak/Sound-proj.#required-hardware) )
+	[MOC](https://github.com/roman-bezusiak/Sound-proj.#required-hardware))
 
 ### Optional software changes
 
