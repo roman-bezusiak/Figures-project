@@ -1,6 +1,22 @@
 # Figures
 
-## Configuration instructions
+## 📥 Installation instructions
+
+### Required software:
+	
+1. [RPi](https://en.wikipedia.org/wiki/Raspberry_Pi) files (
+	[RPi](https://en.wikipedia.org/wiki/Raspberry_Pi))
+
+2. [PuTTY](https://en.wikipedia.org/wiki/PuTTY) (
+	[MOC](https://github.com/roman-bezusiak/Sound-proj.#required-hardware))
+
+### Optional software changes
+
+All the customization of the drawing area (FIG_AREA) can be done in the _output.h_ 
+	file. THe file's description is self-explanatory. Customization of other fields 
+	can be done in the _display.c_ file.
+
+## 🛠 Configuration instructions
 
 ### Required equipment:
 	
@@ -24,23 +40,7 @@
 
 2. Connect the [RPi](https://en.wikipedia.org/wiki/Raspberry_Pi) to the power supply
 
-## Installation instructions
-
-### Required software:
-	
-1. [RPi](https://en.wikipedia.org/wiki/Raspberry_Pi) files (
-	[RPi](https://en.wikipedia.org/wiki/Raspberry_Pi))
-
-2. [PuTTY](https://en.wikipedia.org/wiki/PuTTY) (
-	[MOC](https://github.com/roman-bezusiak/Sound-proj.#required-hardware))
-
-### Optional software changes
-
-All the customization of the drawing area (FIG_AREA) can be done in the _output.h_ 
-	file. THe file's description is self-explanatory. Customization of other fields 
-	can be done in the _display.c_ file.
-
-## Operating instructions
+## ️⚙️ Operating instructions
 
 1. Launch the [RPi](https://en.wikipedia.org/wiki/Raspberry_Pi)
 
@@ -79,7 +79,7 @@ _output.h_ file:
 	- **HLINE**     (default: 5)
 	- **XLINES**    (default: 6)
 
-## File manifest
+## 🗃 File manifest
 
 ### List:
 
@@ -101,13 +101,13 @@ _output.h_ file:
 
 #### Total: **_9_** files
 
-## Copyright and licensing information
+## ⚖️ Copyright and licensing information
 
 This project is licensed under the 
 [**GNU General Public License**](https://en.wikipedia.org/wiki/GNU_General_Public_License). 
 See the [_LICENSE_](LICENSE) file for details
 
-## Credits and acknowledgments
+## 👏 Credits and acknowledgments
 
 ### Authors:
 - **Roman Bezusiak** - _Initial work_ - 
